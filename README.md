@@ -11,7 +11,7 @@ Make sure you are fully up to date.
 
 You need to install the correct package locations in order to download Syncthing correctly.
 
-`sudo apt-get install curl apt-transport-https`
+`sudo apt-get install curl apt-transport-https gnupg -y`
 
 `curl -s https://syncthing.net/release-key.txt | sudo apt-key add -`
 
