@@ -8,11 +8,11 @@ Install
 
 You need to install the correct package locations in order to download Syncthing correctly.
 
-    `sudo apt-get install curl apt-transport-https`
+  `sudo apt-get install curl apt-transport-https`
 
-    `curl -s https://syncthing.net/release-key.txt | sudo apt-key add -`
+  `curl -s https://syncthing.net/release-key.txt | sudo apt-key add -`
 
-    `echo "deb https://apt.syncthing.net/ syncthing stable" | sudo tee /etc/apt/sources.list.d/syncthing.list`
+  `echo "deb https://apt.syncthing.net/ syncthing stable" | sudo tee /etc/apt/sources.list.d/syncthing.list`
 
 Next, update your local repository with the new Syncthing repository
 
