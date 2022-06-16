@@ -41,7 +41,7 @@ Inside that will be a config.xml file.
 Open this with a text editor, something like Vim or Nano. It really doesn't matter.
 
 Within config.xml there is a section that looks like this:
-
+`
   ...
   <gui enabled="true" tls="false" debugging="false">
       <address>127.0.0.1:8384</address>
@@ -49,7 +49,7 @@ Within config.xml there is a section that looks like this:
       <theme>default</theme>
   </gui>
   ...
-
+`
 Under the address attribute, you need to update the ip address.
 0.0.0.0 will allow all machines on your local network to be able to access the Syncthing GUI.
 
