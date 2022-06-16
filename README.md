@@ -38,7 +38,7 @@ Inside that will be a config.xml file.
 Open this with a text editor, something like Vim or Nano. It really doesn't matter.
 
 Within config.xml there is a section that looks like this:
-```python
+```
 ...
   <gui enabled="true" tls="false" debugging="false">
       <address>127.0.0.1:8384</address>
@@ -67,5 +67,7 @@ Save and close config.xml and then restart Syncthing by running the following co
 Now with all that running, you should be able to access the Syncthing GUI by navigating to:
 
 `http://{your_server_ip}:8384`
+
+## Credits
 
 Originally from: https://theselfhostingblog.com/posts/how-to-set-up-a-headless-syncthing-network/#
