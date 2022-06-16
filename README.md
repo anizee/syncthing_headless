@@ -25,17 +25,17 @@ Next, update your local repository with the new Syncthing repository
 
 ## Syncthing Service
 
-The next thing you want to do is enable Syncthing as a system service. This will allow start-up on boot and continuous execution in the background of your server.
+The next thing you want to do is enable Syncthing as a system service. This will allow start-up on boot and continuous execution in the background of your server. Replace USERNAME with your username.
 
-`sudo systemctl enable syncthing@username.service`
+`sudo systemctl enable syncthing@USERNAME.service`
 
-`sudo systemctl start syncthing@username.service`
+`sudo systemctl start syncthing@USERNAME.service`
 
 So this will start Syncthing on your Ubuntu Server.  Problem is, Ubuntu Server is usually headless.  So at the moment there is no way to access the Syncthing GUI to configure your folders and nodes.  The way we can change this to allow local access from another machine is to change the serve address.
 
 ## IP Address Change
 
-When you ran the Syncthing command above, a syncthing folder was created under your /home/username/.config folder.
+When you ran the Syncthing command above, a syncthing folder was created under your /home/USERNAME/.config folder.
 
 Inside that will be a config.xml file.
 
