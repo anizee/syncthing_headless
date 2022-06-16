@@ -7,7 +7,7 @@ This is my setup for a headless syncthing.  I am installing this on a Ubuntu 22.
 
 Make sure you are fully up to date.
 
-`sudo apt update && sudo apt dist-upgrade -y'
+`sudo apt update && sudo apt dist-upgrade -y`
 
 You need to install the correct package locations in order to download Syncthing correctly.
 
