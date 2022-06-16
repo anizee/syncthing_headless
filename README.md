@@ -49,7 +49,7 @@ Within config.xml there is a section that looks like this:
 ```
 Under the address attribute, you need to update the ip address.
 0.0.0.0 will allow all machines on your local network to be able to access the Syncthing GUI.
-
+```
 ...
 <gui enabled="true" tls="false" debugging="false">
     <address>0.0.0.0:8384</address>
@@ -57,15 +57,15 @@ Under the address attribute, you need to update the ip address.
     <theme>default</theme>
 </gui>
 ...
-
+```
 Save and close config.xml and then restart Syncthing by running the following command.
 
-    `sudo systemctl restart syncthing@username.service`
+`sudo systemctl restart syncthing@username.service`
 
 ## Accessing the Syncthing GUI
 
 Now with all that running, you should be able to access the Syncthing GUI by navigating to:
 
-    `http://{your_server_ip}:8384`
+`http://{your_server_ip}:8384`
 
 Originally from: https://theselfhostingblog.com/posts/how-to-set-up-a-headless-syncthing-network/#
